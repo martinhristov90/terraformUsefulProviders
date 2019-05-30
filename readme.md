@@ -21,6 +21,7 @@ resource "random_id" "server" {
     # Generate a new id each time we switch to a new AMI id
     ami_id = "${var.ami_image_id}"
   }
+  # Defining the length of the randomly generated value.
   byte_length = 8
 }
 
