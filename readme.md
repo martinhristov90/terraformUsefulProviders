@@ -13,14 +13,12 @@
 
 - In a directory of your choice, clone the github repository 
 ```
-git clone https://github.com/martinhristov90/terraformOutputs.git
+https://github.com/martinhristov90/terraformUsefulProviders.git
 ```
-
 - Change into the directory
 ```
-cd terraformOutputs
+cd terraformUsefulProviders
 ```
-
 - Run `terraform init` to download the needed providers.
 
 - Now you can run `terraform apply` ( this repository makes not changes on any resources ) 
