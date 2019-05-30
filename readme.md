@@ -9,6 +9,22 @@
 - The information about installing terraform can be found on the HashiCorp website 
 [here](https://learn.hashicorp.com/terraform/getting-started/install.html)
 
+## How to use this repository: 
+
+- In a directory of your choice, clone the github repository 
+```
+git clone https://github.com/martinhristov90/terraformOutputs.git
+```
+
+- Change into the directory
+```
+cd terraformOutputs
+```
+
+- Run `terraform init` to download the needed providers.
+
+- Now you can run `terraform apply` ( this repository makes not changes on any resources ) 
+
 ## What is `random_id` resource : 
 
 - `random_id` is a resource that generates random numbers. Those numbers can be used in as unique identifiers(tags) when EC2 instance is created. Below is an example of how `random_id` resource is used: 
