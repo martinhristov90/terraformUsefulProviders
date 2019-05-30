@@ -1,8 +1,8 @@
-## This reposistory is created with learning purposes for Terraform, focusing on Terraform providers and data sources.
+## This reposistory is created with learning purposes for Terraform, focusing on Terraform `random_id` resource.
 
 ## Purpose :
 
-- The repository provides simple guidelines how to use the `random_id` resource and `template` data provider.
+- The repository provides simple guidelines how to use the `random_id` resource.
 
 ## How to install terraform : 
 
